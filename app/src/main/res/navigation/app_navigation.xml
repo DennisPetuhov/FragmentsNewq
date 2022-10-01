@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/fragment1">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.fragmentsnew.ui.fragments.Fragment1"
+        android:label="Fragment1" />
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.fragmentsnew.ui.fragments.Fragment2"
+        android:label="Fragment2" >
+        <action
+            android:id="@+id/action_fragment2_to_IDFragment"
+            app:destination="@id/IDFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.fragmentsnew.ui.fragments.Fragment3"
+        android:label="Fragment3" />
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.fragmentsnew.ui.fragments.FragmentFour"
+        android:label="Fragment4" />
+    <dialog
+        android:id="@+id/dialogFragment1"
+        android:name="com.example.fragmentsnew.ui.dialogFragments.DialogFragment1"
+        android:label="DialogFragment1" />
+    <dialog
+        android:id="@+id/multiDialogFragment"
+        android:name="com.example.fragmentsnew.ui.dialogFragments.MultiDialogFragment"
+        android:label="MultiDialogFragment" />
+    <fragment
+        android:id="@+id/IDFragment"
+        android:name="com.example.fragmentsnew.ui.fragments.IDFragment"
+        android:label="IDFragment" />
+</navigation>

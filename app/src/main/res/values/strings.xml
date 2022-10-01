@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FragmentsNew</string>
+    <string name="toolbar1">toolbar1</string>
+    <string name="toolbar2">toolbar2</string>
+    <string name="toolbar3">toolbar3</string>
+    <string name="second_fragment">Second fragment</string>
+    <string name="first_fragment">First fragment</string>
+    <string name="third_fragment">Third fragment</string>
+    <string name="volume_description">Volume: %1$d%%</string>
+    <string name="current_volume">Current Volume: %1$d%%</string>
+    <string name="id_fragment" />
+    <string name="search">Search</string>
+    <string name="press_joke">PRESS JOKES TO RECYCLE</string>
+    <string name="view_model_status">viewModel_status</string>
+    <string name="press_on_of_many">PRESS ON OF MANY</string>
+    <string name="press_for_recycle">PRESS FOR RECYCLE</string>
+
+
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+</resources>
