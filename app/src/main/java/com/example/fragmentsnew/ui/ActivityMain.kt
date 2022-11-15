@@ -16,7 +16,7 @@ const val TEX_VALUE ="VALUE"
 
 class ActivityMain : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var preferences: SharedPreferences
+
 //    lateinit var repo: RepositoryImpL //  почему не лэйзи?
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +26,7 @@ class ActivityMain : AppCompatActivity() {
         setContentView(view)
 
         bottonNavigator()
-        toolbarNavigator()
+       // toolbarNavigator()
             //  repo= RepositoryImpL((applicationContext as App).getNoteDAO()) // репоизтиторий с функией
             /*  preferences= getSharedPreferences(app_preferences, MODE_PRIVATE)
        Fragment1().requireActivity().edit_text.setText(preferences.getString(TEX_VALUE,""))

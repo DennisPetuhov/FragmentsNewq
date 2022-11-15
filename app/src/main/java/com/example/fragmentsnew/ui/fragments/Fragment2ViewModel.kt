@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.fragmentsnew.data.FragmentsNewRepositoryImpL
+import com.example.fragmentsnew.data.room.FragmentsNewRepositoryImpL
 import com.example.fragmentsnew.data.room.NoteEntity
 import kotlinx.coroutines.launch
 

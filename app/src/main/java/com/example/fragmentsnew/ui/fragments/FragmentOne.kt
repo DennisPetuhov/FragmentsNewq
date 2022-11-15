@@ -43,11 +43,11 @@ class Fragment1 : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FirstFragmentLayoutBinding.inflate(inflater, container, false)
-        val bundle=Bundle().also { it.putString(START_KEY,"Start") }
-        val intent =Intent()//намерение в аперационную систему
-        intent.putExtra(START_KEY,bundle)
-        intent.action=(Intent.ACTION_GTALK_SERVICE_CONNECTED)
-        ContextCompat.startForegroundService(requireContext(),intent)
+//        val bundle=Bundle().also { it.putString(START_KEY,"Start") }
+//        val intent =Intent()//намерение в аперационную систему
+//        intent.putExtra(START_KEY,bundle)
+//        intent.action=(Intent.ACTION_GTALK_SERVICE_CONNECTED)
+//        ContextCompat.startForegroundService(requireContext(),intent)
 
         initialazeView()
         fromButtonToSharedPreferences()

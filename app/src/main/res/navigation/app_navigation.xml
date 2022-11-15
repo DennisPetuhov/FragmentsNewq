@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/app_navigation"
-    app:startDestination="@id/fragment1">
+    app:startDestination="@id/fragment2">
 
     <fragment
         android:id="@+id/fragment1"
@@ -11,7 +11,7 @@
     <fragment
         android:id="@+id/fragment2"
         android:name="com.example.fragmentsnew.ui.fragments.Fragment2"
-        android:label="Fragment2" >
+        android:label="Fragment2">
         <action
             android:id="@+id/action_fragment2_to_IDFragment"
             app:destination="@id/IDFragment" />

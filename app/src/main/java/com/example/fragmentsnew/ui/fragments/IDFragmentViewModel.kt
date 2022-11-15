@@ -1,10 +1,8 @@
 package com.example.fragmentsnew.ui.fragments
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
 
-import com.example.fragmentsnew.data.FragmentsNewRepositoryImpL
-import kotlinx.coroutines.launch
+import com.example.fragmentsnew.data.room.FragmentsNewRepositoryImpL
 
 
 class IDFragmentViewModel(

@@ -51,7 +51,7 @@ class NoteAdapter :
 
     private var itemList = listOf<NoteEntity>() //список того что есть, изначально это пустой лист
 
-    private var actions: ItemActions? = null
+    private var actions: ItemActions? = null //действия с айтемами
     fun bindaction(actions: ItemActions) {
         this.actions = actions
     }

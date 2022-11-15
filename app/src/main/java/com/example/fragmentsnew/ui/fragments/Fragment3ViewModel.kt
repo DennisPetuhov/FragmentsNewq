@@ -3,7 +3,7 @@ package com.example.fragmentsnew.ui.fragments
 import android.content.ContentValues.TAG
 import android.util.Log
 import androidx.lifecycle.*
-import com.example.fragmentsnew.data.FragmentsNewRepositoryImpL
+import com.example.fragmentsnew.data.room.FragmentsNewRepositoryImpL
 import com.example.fragmentsnew.data.retrofit.chuckIO.ChuckSingleApiServiceImp
 import com.example.fragmentsnew.data.retrofit.chuckIO.JokesDataClass
 import com.example.fragmentsnew.data.retrofit.chuckList.ChuckListServiceImpl
@@ -18,13 +18,12 @@ import kotlinx.coroutines.flow.StateFlow
 
 import kotlinx.coroutines.launch
 import java.util.*
-import kotlin.random.Random
 import kotlin.random.Random.Default.nextInt
 
 class Fragment3ViewModel(
     private val apiChuckSingleServiceImpl: ChuckSingleApiServiceImp,
     private val apiChuckListServiceImpl: ChuckListServiceImpl,
-    private val repo:FragmentsNewRepositoryImpL
+    private val repo: FragmentsNewRepositoryImpL
 ) : ViewModel() {
     init {
         Log.e("%%%", "Viewmodel fragment 3 created")

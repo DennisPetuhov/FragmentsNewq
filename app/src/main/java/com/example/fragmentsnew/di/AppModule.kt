@@ -2,7 +2,7 @@ package com.example.fragmentsnew.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.fragmentsnew.data.FragmentsNewRepositoryImpL
+import com.example.fragmentsnew.data.room.FragmentsNewRepositoryImpL
 import com.example.fragmentsnew.data.retrofit.chuckIO.ChuckNorrisApi
 import com.example.fragmentsnew.data.retrofit.chuckIO.ChuckSingleApiServiceImp
 /*import com.example.fragmentsnew.data.retrofit.chuckIO.ChuckNorrisApi

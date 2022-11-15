@@ -28,11 +28,11 @@ abstract class  NoteDataBase : RoomDatabase() {
 
 /*
    companion object { //синглтон предотвращает создание многих сущностей БД
-        @Volatile
+        @Volatile // объект всегда читается из основной памяти и н хранится в кэш процессора и тд читается из RAM
         private var INSTANCE: NoteDataBase? = null
         fun getNoteDataBase(context: Context): NoteDataBase {
             Log.d(ContentValues.TAG, "********** fun getNoteDataBase")
-            return INSTANCE?: synchronized(this) {
+            return INSTANCE?: synchronized(this) { // работа с одним потоком одновременно
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     NoteDataBase::class.java,
